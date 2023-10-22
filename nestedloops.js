@@ -1,9 +1,8 @@
 let hasCompleted = true
 let givesCertificate = true
-if(hasCompleted===true){
-  if(givesCertificate===true){
-    generateCertificate()
-  }
+if(hasCompleted===true && givesCertificate===true){
+  
+  generateCertificate()
 }
 
 
