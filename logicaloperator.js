@@ -1,12 +1,12 @@
-let hasSolved=false
-let hasHints=false
+let likesDocumentaries = false
+let likesStartups = true
 
-if(hasSolved===false && hasHints===false)
+if(likesDocumentaries===true || likesStartups===true)
 {
-  showSolution()
+    recommendMovie()
 }
 
-
-function showSolution (){
-  console.log("showing solution....")
-}
+function recommendMovie()
+{
+    console.log("hey check out this documentary.....")
+} 
